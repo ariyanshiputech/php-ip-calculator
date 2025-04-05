@@ -5,15 +5,15 @@ More features is being developed.
 
 ## Install
 ```
-composer require yuninternet/php-ip-calculator
+composer require ariyanshipu/php-ip-calculator
 ```
 ## Usage
 ```
-$factory = new YunInternet\PHPIPCalculator\CalculatorFactory("192.168.111.222/16");
+$factory = new Ariyanshipu\PHPIPCalculator\CalculatorFactory("192.168.111.222/16");
 ```
 or
 ```
-$factory = new YunInternet\PHPIPCalculator\CalculatorFactory("2001:470:0:76::2/48");
+$factory = new Ariyanshipu\PHPIPCalculator\CalculatorFactory("2001:470:0:76::2/48");
 ```
 then
 ```
