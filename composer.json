@@ -1,0 +1,38 @@
+{
+  "name": "ariyanshipu/php-ip-calculator",
+  "description": "IP calculator written in PHP, IPv4 & IPv6 are supported, mainly functions for subnet allocation.",
+  "keywords": [
+    "ip",
+    "ipv4",
+    "ipv6",
+    "subnet",
+    "calculator",
+    "php"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ariyan Shipu",
+      "homepage": "https://ariyanshipu.me",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ariyanshipu\\PHPIPCalculator\\": "src/Ariyanshipu/PHPIPCalculator"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ariyanshipu\\PHPIPCalculator\\Test\\": "tests/Ariyanshipu/PHPIPCalculator/Test"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
